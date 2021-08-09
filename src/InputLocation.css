@@ -1,0 +1,40 @@
+input{
+    max-width: 280px;
+    height: auto;
+    line-height: normal;
+    font-size: 18px;
+    color: #333333;
+    border: none;
+    border-bottom: 2px solid #d6d6d6;
+    margin: 30px;
+   
+}
+
+input::placeholder{
+        color: #adadad;
+        opacity: 1;
+        line-height:normal;
+      
+}
+
+input:focus,
+input:active {
+    outline: none;
+}
+
+label {
+    color: #606060;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: +.5px;
+}
+
+button{
+    border: none;
+    background: none;
+
+}
+/* 
+button:focus {
+    outline: none;
+} */

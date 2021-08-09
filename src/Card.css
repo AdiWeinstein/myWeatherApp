@@ -1,0 +1,66 @@
+.Card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background: #F6F5FA;
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.16);
+    font-weight: normal;
+}
+
+.topLine{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px; 
+}
+.cityTemp{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+.city p{
+    font-size: 150%;
+    margin-top: 0;
+}
+
+img{
+    background-image: url(./Icons/Sun.svg);
+    width:80px ;
+    height: 80px;
+    background-size: contain;
+}
+
+
+.favoriteBtn{
+    display: flex;
+    flex-direction: column;
+} 
+.heart{
+    font-size: 300%;
+}
+.favoriteBtn, .heart :hover{
+    color: red;
+
+}
+
+
+
+
+.dayTemp{
+    display: flex;
+    flex-direction: row;
+}
+.day{
+    border: 1 px solid;
+    margin: 0 30px;
+}
+
+
