@@ -1,7 +1,7 @@
 import React from 'react'
 import './InputLocation.css'
 import {useState , useRef, useEffect} from 'react';
-
+ // test
 function InputLocation (){
 
     const [location , setLocation] = useState();
@@ -29,7 +29,6 @@ function InputLocation (){
             setWeather(data);
           })
     }, [weather]);
-
 
 
     // get city info
